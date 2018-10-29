@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="4jG-fZ-W6R">
+                    <rect key="frame" x="0.0" y="9" width="375" height="658"/>
+                    <color key="backgroundColor" red="0.93990522623062134" green="0.95655828714370728" blue="0.94117981195449829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4jG-fZ-W6R" secondAttribute="bottom" id="8tS-sB-5cu"/>
+                <constraint firstItem="4jG-fZ-W6R" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kyo-Yy-O92"/>
+                <constraint firstItem="4jG-fZ-W6R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZKp-gq-rKj"/>
+                <constraint firstAttribute="trailing" secondItem="4jG-fZ-W6R" secondAttribute="trailing" id="jhs-75-Fb2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="547.5" y="454.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="splash" width="320" height="569"/>
+    </resources>
+</document>
